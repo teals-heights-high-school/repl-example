@@ -10,6 +10,21 @@ Repl.it requires an internet connection, and teachers shouldn't assume that stud
 TBD
 
 ## Integrating with GitHub
-TBD
+`.editorconfig`
+```shell script
+root = true
+
+[*]
+indent_style = tab
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+```
+
+`.replit`
+```shell script
+language = "java10"
+run = "javac Main.java && java Main"
+```
 
 ## Repl.it
